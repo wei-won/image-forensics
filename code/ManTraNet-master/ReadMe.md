@@ -11,25 +11,25 @@ ManTraNet is an image forgery detection and localization architecture claimed to
 ### Folder Content
 This folder contains the following things:
 
-- ManTraNet_train.py - train ManTraNet on CASIA v2 dataset (1000/1313 images) 
-- ManTraNet_test_onCASIA.py - test ManTraNet on CASIA v2 dataset and show qualitative results
-- ManTraNet_test_onCOVERAGE.py - test ManTraNet on COVERAGE dataset and show qualitative results
-- ManTraNet_visualize_feature_map.py - visualize the feature maps coming out from the highpass filters (Bayar & SRM) based on the CASIA dataset
-- ManTraNet_visualize_filters.py - visualize the weights of highpass filters (Bayar & SRM)
+- *ManTraNet_train.py* - train ManTraNet on CASIA v2 dataset (1000/1313 images) 
+- *ManTraNet_test_onCASIA.py* - test ManTraNet on CASIA v2 dataset and show qualitative results
+- *ManTraNet_test_onCOVERAGE.py* - test ManTraNet on COVERAGE dataset and show qualitative results
+- *ManTraNet_visualize_feature_map.py* - visualize the feature maps coming out from the highpass filters (Bayar & SRM) based on the CASIA dataset
+- *ManTraNet_visualize_filters.py* - visualize the weights of highpass filters (Bayar & SRM)
 - src
-    - modelCore.py - contains custom keras-tensorflow layers, activations and model architectures
+    - *modelCore.py* - contains custom keras-tensorflow layers, activations and model architectures
 - ckpt
-    - ckpt_freezeFeatex.hd5 - model check point of training with the Manipulation Trace Feature Extractor frozen
-    - ckpt_freezeLoc.hd5 - model check point of training with the Local Anomaly Detection Network frozen
-    - model_10.hd5 - fine-tuned model for 5 epochs (on the entire network) 
+    - *ckpt_freezeFeatex.hd5* - model check point of training with the Manipulation Trace Feature Extractor frozen
+    - *ckpt_freezeLoc.hd5* - model check point of training with the Local Anomaly Detection Network frozen
+    - *model_10.hd5* - fine-tuned model for 5 epochs (on the entire network) 
 - data - sample images provided by the authors
 - pretrained_weights - pre-trained model provided by the authors
-- ReadMe.md - This file
+- *ReadMe.md* - This file
 
 ### Instruction
-To train the model, run ManTraNet_train.py.
+To train the model, run *ManTraNet_train.py*.
 
-To test the model, run ManTraNet_test_onCASIA.py or ManTraNet_test_onCOVERAGE.py to get the performance on corresponding dataset.
+To test the model, run *ManTraNet_test_onCASIA.py* or *ManTraNet_test_onCOVERAGE.py* to get the performance on corresponding dataset.
 
 ### Dependencies
 ManTraNet was written in Keras with the TensorFlow backend.
