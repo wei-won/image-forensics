@@ -1,5 +1,5 @@
 # BusterNet Model and Utils
-This model was inspired by [BusterNet: Detecting Copy-Move Image Forgery
+This model was inspired by and modified based on [BusterNet: Detecting Copy-Move Image Forgery
 with Source/Target Localization](http://openaccess.thecvf.com/content_ECCV_2018/papers/Rex_Yue_Wu_BusterNet_Detecting_Copy-Move_ECCV_2018_paper.pdf).
 
 ### Introduction
