@@ -1,5 +1,5 @@
 # ManTraNet Model
-This model was inspired by [ManTraNet: Manipulation Tracing Network For Detection And Localization of Image ForgeriesWith Anomalous Features](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wu_ManTra-Net_Manipulation_Tracing_Network_for_Detection_and_Localization_of_Image_CVPR_2019_paper.pdf).
+This model was inspired by and modified based on [ManTraNet: Manipulation Tracing Network For Detection And Localization of Image Forgeries With Anomalous Features](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wu_ManTra-Net_Manipulation_Tracing_Network_for_Detection_and_Localization_of_Image_CVPR_2019_paper.pdf).
 
 ### Introduction
 This folder contains the scripts and pre-trained model for ManTraNet to reproduce the results on COVERAGE dataset and CASIA-CMFD dataset.
